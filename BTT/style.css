@@ -1,0 +1,72 @@
+*{
+  box-sizing: border-box;
+}
+.one {
+  display: flex;
+  flex-direction: column;
+}
+.two {
+  display: flex;
+  flex-direction: row;
+}
+.three {
+  display: flex;
+  flex-direction: column-reverse;
+}
+.four {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.big > div{
+  background-color: bisque;
+  width: 50px;
+  height: 50px;
+  margin: 10px;
+  font-size: 30px;
+}
+.big{
+  margin: 30px;
+  gap:10px;
+  background-color:rgb(238, 142, 107);
+}
+section{
+  display: flex;
+}
+.five .item-1{
+  flex: 1 1  0px;
+}
+.five .item-2{
+  flex: 1 1 0px;
+}
+.five .item-3{
+  flex: 1 1 0px;
+}
+.six .item-1{
+  flex: 1 1  0px;
+}
+.six .item-2{
+  flex: 2 1 0px;
+}
+.six .item-3{
+  flex: 1 1 0px;
+}
+header{
+  padding: 10px 30px 10px 50%;
+}
+nav{
+  display: flex;
+  justify-content: space-between;
+}
+.info{
+  display: flex;
+  flex-wrap: wrap;
+}
+.info .item{
+  width: 100px;
+}
+p{
+  font-size: 30px;
+  color: blue;
+  background-color: ghostwhite;
+}
